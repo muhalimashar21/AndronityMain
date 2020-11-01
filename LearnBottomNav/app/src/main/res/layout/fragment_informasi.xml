@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".fragment.InformasiFragment">
+    >
 
     <LinearLayout android:layout_width="match_parent"
         android:orientation="vertical"
@@ -40,7 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
-                        android:text="Jadwal TPQ:"
+                        android:text="Ini Akun Ku"
                         android:layout_gravity="left"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -48,22 +48,7 @@
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
-                    <TextView
-                        android:text="Mulai Hari Senin - Jumat"
-                        android:layout_gravity="left"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:text="Jam 16.00-17.30"
-                        android:layout_gravity="left"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+
 
                 </LinearLayout>
             </LinearLayout>
