@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNamaMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Data Siswa"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyleTextInputLayout"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                style="@style/MyEditTextStyle"
+                android:hint="Nama Lengkap" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/StyleTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyEditTextStyle"
+                android:hint="Nama Panggilan" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/StyleTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyEditTextStyle"
+                android:hint="Jenis Kelamin" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/StyleTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyEditTextStyle"
+                android:hint="Hobi" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/StyleTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyEditTextStyle"
+                android:hint="Cita-cita" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/StyleTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyEditTextStyle"
+                android:hint="Alamat Lengkap" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
